@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Index</title>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="frame">
+                <form action="">
+
+                    <div class="display">
+                        <input type="text" name="" id="time"  readonly>
+
+                    </div>
+                    
+                        <input type="number" min="00" max="24" name="" id="hours" placeholder="00"  >
+                        <span style="color: white; font-weight: bold;">:</span>
+                        <input type="number" min="00" max="60" name="" id="min"   placeholder="00"  >
+                        <input type="number" min="00" max="60" name="" id="sec"   placeholder="00" >
+
+                  
+                    <input type="button" value="Set timer" id="lab" class="operation timer" onclick="setTimer()">
+                    <br>
+                 <center>
+                 
+                    <div class="alarmSet">
+                       
+                       
+                           
+                           
+                               <div id="alarms"></div> 
+                            
+                      
+
+                    </div>
+                </center>
+                   
+                </form>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+</html>
